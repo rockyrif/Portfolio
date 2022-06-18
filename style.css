@@ -22,11 +22,14 @@ nav{
     color: rgb(255, 255, 255) !important;
     border-bottom: transparent;
     
+    
 }
 
 .nav-link:hover{
     border-bottom: 1px solid white; 
 }
+
+
 
 section{
     width: 100%;
@@ -242,6 +245,9 @@ section{
     
     .circle .content{
         opacity: 0;
+    }
+    .text-centre .student{
+        break-after: right;
     }
 
 }
