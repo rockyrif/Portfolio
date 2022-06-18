@@ -182,33 +182,12 @@ section{
 }
 
 
+/* meadia screen */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:576px){
+@media screen and (max-width:700px){
     #home p{
         top: 40%;
-        font-size: 60px;
+        font-size: 50px;
     }
     .circle{
         width: 360px;
@@ -246,18 +225,17 @@ section{
     .circle .content{
         opacity: 0;
     }
-    .text-centre .student{
-        break-after: right;
+
+    .text-center .word-break{
+        display: block;
+        color: aqua !important;
     }
+    
 
 }
 
 
-@media screen and (max-width:768px){
-    #home p{
-        font-size: 60px;
-    }
-}
+
 
 @media screen and (max-height:397px){
     .circle{
