@@ -156,7 +156,7 @@ section{
     width: 700px;
     height: 450px;
     border-radius: 10px;
-    background: palevioletred;
+    background: yellow;
     transition: 1s;
 }
 
@@ -172,7 +172,7 @@ section{
     top: 15%;
     right: 0;
     width: 50%;
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 1;
     transition: 2s;
 }
@@ -208,6 +208,7 @@ section{
     .circle:hover{
         width: 350px;
         height: 600px;
+        background: aqua !important;
     }
     .circle:hover img{
         left: 2%;
@@ -217,7 +218,7 @@ section{
         top: 60%;
         padding: 10px;
         width: 100%;
-        color: white;
+        color: rgb(0, 0, 0);
         opacity: 1;
         transition: 2s;
     }
