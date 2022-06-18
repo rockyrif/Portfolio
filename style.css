@@ -186,6 +186,11 @@ section{
 #skill{
     padding-top: 5%;
 }
+#skill .container{
+   margin-top: 6%;
+   margin-bottom: 6%;
+   padding-bottom: 5%
+}
 
 
 /* meadia screen */
@@ -239,6 +244,10 @@ section{
     }
     #skill{
         padding-top: 16%;
+
+    }
+    #skill .container{
+        padding-bottom: 5% !important;
     }
     
     
@@ -252,6 +261,9 @@ section{
     }
     #skill{
         padding: 25%;
+    }
+    #skill .container{
+        padding-bottom: 5% !important;
     }
 }
     
