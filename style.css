@@ -237,17 +237,21 @@ section{
         display: block;
         color: aqua !important;
     }
+    #skill{
+        padding-top: 16%;
+    }
+    
     
 
 }
-
-
-
 
 @media screen and (max-height:397px){
     .circle{
         margin-top: 20%;
         margin-bottom: 5%;
+    }
+    #skill{
+        padding: 25%;
     }
 }
     
