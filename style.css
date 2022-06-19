@@ -192,7 +192,7 @@ section{
    
    
 }
-@media (max-width:380px){
+@media screen and (max-width:380px){
     #home p{
         top: 40%;
         font-size: 50px;
@@ -200,10 +200,10 @@ section{
     
     .text-center .word-break{
         display: block;
-        color: aqua;
+        color: aqua !important;
     }
     .text-center .word-color{
-        color: aqua;
+        color: aqua !important ;
     }
     /*about section*/
 
@@ -263,7 +263,7 @@ section{
 
 /* meadia screen xs*/
 
-@media (max-width:575.98px) and (min-width:381px){
+@media screen and (max-width:575.98px) and (min-width:381px){
     #home p{
         top: 40%;
         font-size: 50px;
@@ -271,10 +271,10 @@ section{
     
     .text-center .word-break{
         display: block;
-        color: aqua;
+        color: aqua !important;
     }
     .text-center .word-color{
-        color: aqua;
+        color: aqua !important;
     }
     /*about section*/
 
@@ -333,7 +333,7 @@ section{
 
 /* meadia screen sm*/
 
-@media (max-width:767.98px) and (min-width:576px){
+@media screen and (max-width:767.98px) and (min-width:576px){
     #home p{
         font-size: 50px;
     }
@@ -379,7 +379,7 @@ section{
 
     /* meadia screen md*/
 
-@media (max-width:991.98px) and (min-width:768px){
+@media screen and (max-width:991.98px) and (min-width:768px){
     #home p{
         font-size: 60px;
     }
