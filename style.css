@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 
 nav{
@@ -16,6 +18,8 @@ nav{
 
 .navbar-brand{
     font-weight: 600;
+    font-family: 'Satisfy', cursive;
+    font-display: 300px;
 }
 
 .nav-link{
@@ -184,13 +188,14 @@ section{
 /*skill section*/
 
 #skill{
-    padding-top: 5%;
+    padding-top: 10%;
     background: darkgrey;
+    width: 100%;
+    max-height: fit-content;
 }
+
 #skill .container{
-   margin-top: 6%;
-   
-   
+   margin-top: 3%;
 }
 @media screen and (max-width:380px){
     #home p{
@@ -234,7 +239,7 @@ section{
     }
     .circle:hover .content{
         position: absolute;
-        top: 50% ;
+        top: 45% ;
         padding: 10px ;
         width: 100%;
         color: rgb(0, 0, 0);
@@ -252,10 +257,12 @@ section{
 
     #skill{
         padding-top: 10%;
+        max-height: fit-content;
 
     }
     #skill .container{
        padding-bottom: 6%;
+       margin-top: 2%;
     }   
 
 }
@@ -290,7 +297,7 @@ section{
         position: absolute;
         width: 300px;
         height: 300px;
-        left: 2%;
+        left: -3%;
         top: 4%; 
         filter: drop-shadow(0px,30px,0px rgba(0, 0, 0,.4));
 
@@ -323,11 +330,13 @@ section{
     /*skill section*/
 
     #skill{
-        padding-top: 10%;
+        padding-top: 20%;
+        max-height: fit-content;
 
     }
     #skill .container{
         padding-bottom: 6%;
+        margin-top: 2%;
     }  
 }
 
@@ -356,7 +365,7 @@ section{
      }
      .circle:hover img{
         left: -2%;
-        top: 5%;
+        top: 3%;
      }
      .circle:hover .content{
         width: 55%;
@@ -369,11 +378,13 @@ section{
     /*skill section*/
 
     #skill{
-        padding-top: 10%;
+        padding-top: 8%;
+        max-height: fit-content;
 
     }
     #skill .container{
         padding-bottom: 6% ;
+        margin-top: 2%;
     } 
 }   
 
@@ -391,23 +402,28 @@ section{
     .circle img{
         width: 300px;
         height: 300px;
-        left: 15%;
-        top: 6%;
+        left: 18%;
+        top: 15%;
  
      }
      .circle:hover{
          width: 550px;
          height: 350px;
      }
+     .circle:hover img{
+        top:3%;
+     }
 
     /*skill section*/
 
     #skill{
-        padding-top: 10%;
+        padding-top: 7%;
+        max-height: fit-content;
 
     }
     #skill .container{
         padding-bottom: 6%;
+        margin-top: 2%;
     }   
 }
 
